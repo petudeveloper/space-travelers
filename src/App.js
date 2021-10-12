@@ -1,10 +1,17 @@
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
+import Nav from './components/Nav';
+import Rockets from './components/Rockets';
+import Profile from './pages/Profile';
 
 function App() {
   return (
-    <div className="App">
+    <Router className="App">
+      <Nav />
       <h1>Space Travelers</h1>
-    </div>
+      <Route exact path="/" component={Rockets} />
+      <Route exact path="/Profile" component={Profile} />
+    </Router>
   );
 }
 
