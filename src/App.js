@@ -1,10 +1,16 @@
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header';
+import Rockets from './components/Rockets';
+import Profile from './pages/Profile';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Space Travelers</h1>
-    </div>
+    <Router className="App">
+      <Header />
+      <Route exact path="/" component={Rockets} />
+      <Route exact path="/Profile" component={Profile} />
+    </Router>
   );
 }
 

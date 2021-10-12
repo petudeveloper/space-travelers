@@ -1,3 +1,29 @@
 .App {
   text-align: center;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.link-nav {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.active-nav {
+  text-decoration: underline;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
