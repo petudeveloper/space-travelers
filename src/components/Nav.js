@@ -1,17 +1,17 @@
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const nav = () => (
-  <nav>
+  <nav className="navbar">
     <span>Space Travelers Hub</span>
-    <ul>
+    <ul className="list-nav">
       <li>
-        <Link className="link-nav" to="/">Rockets</Link>
+        <NavLink exact to="/" className="link-nav" activeClassName="active-nav">Rockets</NavLink>
       </li>
       <li>
-        <NavLink to="/Missions" className="link-nav">Missions</NavLink>
+        <NavLink to="/Missions" className="link-nav" activeClassName="active-nav">Missions</NavLink>
       </li>
       <li>
-        <NavLink to="/Profile" className="link-nav">Profile</NavLink>
+        <NavLink to="/Profile" className="link-nav" activeClassName="active-nav">Profile</NavLink>
       </li>
     </ul>
   </nav>
