@@ -1,3 +1,51 @@
+
+<p align="center">
+  <a href="https://www.microverse.org/">
+    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors/Space-Travelers-Hub/blob/dev/MIT.md">
+    <img alt="MIT Licensed" src="https://img.shields.io/github/license/Hamzaoutdoors/to-do-list?style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors/Space-Travelers-Hub">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Hamzaoutdoors/Space-Travelers-Hub/dev?color=blue&style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors/Space-Travelers-Hub">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Hamzaoutdoors/Space-Travelers-Hub?color=green&label=%E2%98%85%20stars%20&style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/Hamzaoutdoors?color=yellow&logo=github&style=flat-square">
+  </a>
+</p>
+
+<div align="center">
+ <img alt="react" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&loColor=%2361DAFB"> <img alt="redux" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/> <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/></div>
+</br>
+ <div align="center">
+  <em align="center" style>“Everyday life is like programming, I guess. If you love something you can put beauty into it.”</em><strong> - Lao Tzu</strong>
+  </div>
+
+# Space Traveler's Hub
+
+- The Space Travelers is a website web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
+By building this application, I learned how to use React, Redux and working in Project as group using Kanban dashboard
+  - For this project we used the following APIs :
+    - Rockets: In construction
+    - Missions: In construction
+
+
+
+## Built With
+
+- JSX, JavaScript with ES6
+- React.js with redux
+- Linters, Node.js, Git, Flexbox, React-Bootstrap
+
+## Live demo
+
+### In construction
+
+- Release ASAP
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +87,38 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **David Alvarez**
 
-### Code Splitting
+- GitHub: [@David Alvarez](https://github.com/petudeveloper)
+- Twitter: [@David](https://twitter.com/petudeveloper)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/davidalvarezmazzo/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+👤 **Leonardo de Andrade**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [Leo de Andrade](https://github.com/leonardoeng13)
+- LinkedIn : [Leonardo de Andrade](https://www.linkedin.com/in/leonardodeandrade/)
+- Twitter: [Leo de Andrade](https://twitter.com/andrede_leo)
 
-### Making a Progressive Web App
+# 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, issues, and feature requests are welcome!
 
-### Advanced Configuration
+Feel free to check the [issues page](https://github.com/petudeveloper/space-travelers/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
