@@ -18,10 +18,10 @@ export const loadRockets = () => async (dispatch) => {
   const res = await fetch(URL);
   const data = await res.json();
   const state = data.map((rocket) => ({
-    rocket_id: rocket.id,
-    rocket_name: rocket.rocket_name,
-    rocket_description: rocket.description,
-    rocket_flickr_image: rocket.flickr_images[0],
+    id: rocket.id,
+    name: rocket.rocket_name,
+    image: rocket.flickr_images[0],
+    type: rocket.rocket_type,
   }));
   dispatch({ type: LOAD, state });
 };
