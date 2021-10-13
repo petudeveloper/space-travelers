@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import Rockets from './components/Rockets';
+import Rockets from './components/rockets/Rockets';
 import Profile from './pages/Profile';
 
 function App() {
