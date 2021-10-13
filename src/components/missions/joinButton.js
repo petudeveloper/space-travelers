@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { Button } from 'react-bootstrap';
 import { joinMission, leaveMission } from '../../redux/missions/missions';
-import style from './missions.module.scss';
+import style from './missions.css';
 
 const JoinButton = ({ status, id }) => {
   const dispatch = useDispatch();
