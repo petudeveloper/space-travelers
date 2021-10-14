@@ -1,19 +1,19 @@
 import style from './pages.module.css';
 
 const Profile = () => (
-  <div className={style.container}>
-    <section className={style.section}>
-      <h4>My Rockets</h4>
-      <ul className={style.list}>
-        <li className={style.listElement}>test</li>
-        <li className={style.listElement}>test</li>
+  <div className={style.profilecontainer}>
+    <section className={style.profilesection}>
+      <h3>My Rockets</h3>
+      <ul className={style.profilelist}>
+        <li className={style.profilelistElement}>test</li>
+        <li className={style.profilelistElement}>test</li>
       </ul>
     </section>
-    <section className={style.section}>
-      <h4>My Missions</h4>
-      <ul className={style.list}>
-        <li className={style.listElement}>test</li>
-        <li className={style.listElement}>test</li>
+    <section className={style.profilesection}>
+      <h3>My Missions</h3>
+      <ul className={style.profilelist}>
+        <li className={style.profilelistElement}>test</li>
+        <li className={style.profilelistElement}>test</li>
       </ul>
     </section>
   </div>

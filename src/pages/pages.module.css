@@ -1,21 +1,22 @@
-.container {
+.profilecontainer {
   display: flex;
   justify-content: space-around;
-  padding: 5vw;
+  padding: 15px;
 }
 
-.section {
+.profilesection {
   width: 50%;
   margin: 0 15px;
 }
 
-.list {
+.profilelist {
   width: 100%;
-  border: 1px solid grey;
+  border: 1px solid rgba(128, 128, 128, 0.479);
   border-radius: 5px;
 }
 
-.listElement {
-  padding: 5px 30px;
-  border-bottom: 1px solid grey;
+.profilelistElement {
+  padding: 10px 0 30px 35px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.479);
+  font-size: 1.2em;
 }

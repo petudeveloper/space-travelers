@@ -5,10 +5,16 @@
 .bar {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.671);
   margin: 10px 20px;
   padding-bottom: 20px;
   align-items: center;
+}
+
+.logoLetters {
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-left: 20px;
 }
 
 .bar ul {
