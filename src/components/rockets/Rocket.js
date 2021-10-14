@@ -2,7 +2,7 @@ import { PropTypes } from 'prop-types';
 import { Card, Button } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
 import style from './rocket.module.css';
-import { reserveRocket } from '../../redux/rockets/rockets';
+import { reserveRocket, cancelRocket } from '../../redux/rockets/rockets';
 
 const Rocket = ({
   name, imageUrl, description, id, reserved,
@@ -10,7 +10,8 @@ const Rocket = ({
   const dispatch = useDispatch();
 
   const reserveRocketHandler = () => {
-    dispatch(reserveRocket(id));
+    if (reserved) dispatch(cancelRocket(id));
+    else dispatch(reserveRocket(id));
   };
 
   return (
@@ -26,7 +27,12 @@ const Rocket = ({
           <Card.Text>
             {description}
           </Card.Text>
-          <Button onClick={reserveRocketHandler}>{reserved ? 'Reserved' : 'Reserve Rocket'}</Button>
+          <Button
+            onClick={reserveRocketHandler}
+            variant={reserved ? 'secondary' : 'primary'}
+          >
+            {reserved ? 'Cancel Reservation' : 'Reserve Rocket'}
+          </Button>
         </Card.Body>
       </Card>
     </li>

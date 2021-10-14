@@ -3,6 +3,7 @@ const URL = 'https://api.spacexdata.com/v3/rockets';
 // Actions
 const LOAD = 'spaceships/rockets/LOAD';
 const RESERVE_ROCKET = 'spaceships/rockets/RESERVE';
+const CANCEL_ROCKET = 'spaceships/rockets/CANCEL';
 
 // Reducer
 export default (state = [], action) => {
@@ -13,6 +14,11 @@ export default (state = [], action) => {
       return state.map((rocket) => {
         if (rocket.id !== action.id) return rocket;
         return { ...rocket, reserved: true };
+      });
+    case CANCEL_ROCKET:
+      return state.map((rocket) => {
+        if (rocket.id !== action.id) return rocket;
+        return { ...rocket, reserved: false };
       });
     default:
       return state;
@@ -35,5 +41,10 @@ export const loadRockets = () => async (dispatch) => {
 
 export const reserveRocket = (id) => ({
   type: RESERVE_ROCKET,
+  id,
+});
+
+export const cancelRocket = (id) => ({
+  type: CANCEL_ROCKET,
   id,
 });
