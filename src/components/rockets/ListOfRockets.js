@@ -22,6 +22,7 @@ const ListOfRockets = () => {
               key={`rocket${rocket.id}`}
               name={rocket.name}
               imageUrl={rocket.image}
+              description={rocket.description}
             />
           ))
       }

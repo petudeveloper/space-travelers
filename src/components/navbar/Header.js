@@ -1,8 +1,9 @@
 import { NavLink } from 'react-router-dom';
+import style from './navbar.module.css';
 
 const Header = () => (
-  <nav className="navbar">
-    <div className="logo-nav">
+  <nav className={style.bar}>
+    <div className={style.logo}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.0"
@@ -22,15 +23,15 @@ const Header = () => (
       </svg>
       <span>Space Travelers Hub</span>
     </div>
-    <ul className="list-nav">
+    <ul className={style.list}>
       <li>
-        <NavLink exact to="/" className="link-nav" activeClassName="active-nav">Rockets</NavLink>
+        <NavLink exact to="/" className={style.link} activeClassName={style.active}>Rockets</NavLink>
       </li>
       <li>
-        <NavLink to="/Missions" className="link-nav" activeClassName="active-nav">Missions</NavLink>
+        <NavLink to="/Missions" className={style.link} activeClassName={style.active}>Missions</NavLink>
       </li>
       <li>
-        <NavLink to="/Profile" className="link-nav" activeClassName="active-nav">Profile</NavLink>
+        <NavLink to="/Profile" className={style.link} activeClassName={style.active}>Profile</NavLink>
       </li>
     </ul>
   </nav>
