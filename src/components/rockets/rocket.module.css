@@ -43,3 +43,18 @@
     margin-top: 5%;
   }
 }
+
+.badge {
+    color: white;
+    background-color: #0b5ed7;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0.1rem 0.3rem;
+    font-size: 0.7rem;
+    border-radius: 0.25rem;
+    margin: 5px;
+}

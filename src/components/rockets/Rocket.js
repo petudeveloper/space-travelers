@@ -10,8 +10,11 @@ const Rocket = ({
   const dispatch = useDispatch();
 
   const reserveRocketHandler = () => {
-    if (reserved) dispatch(cancelRocket(id));
-    else dispatch(reserveRocket(id));
+    dispatch(reserveRocket(id));
+  };
+
+  const cancelRocketHandler = () => {
+    dispatch(cancelRocket(id));
   };
 
   return (
@@ -25,14 +28,30 @@ const Rocket = ({
         <Card.Body>
           <Card.Title className={style.rocketTitle}>{name}</Card.Title>
           <Card.Text>
+            {reserved && (
+            <span className={style.badge}>Reserved</span>
+            )}
             {description}
           </Card.Text>
+
+          {reserved && (
+          <Button
+            onClick={cancelRocketHandler}
+            variant="outline-secondary"
+          >
+            Cancel Reservation
+          </Button>
+          )}
+
+          {!reserved && (
           <Button
             onClick={reserveRocketHandler}
-            variant={reserved ? 'secondary' : 'primary'}
+            variant="primary"
           >
-            {reserved ? 'Cancel Reservation' : 'Reserve Rocket'}
+            Cancel Reservation
           </Button>
+          )}
+
         </Card.Body>
       </Card>
     </li>
