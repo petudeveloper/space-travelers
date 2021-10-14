@@ -23,10 +23,6 @@
   transform: scale(1.02);
 }
 
-.rocketImage:hover {
-  transform: scale(1.02);
-}
-
 .rocketTitle {
   font-size: 2rem;
 }
