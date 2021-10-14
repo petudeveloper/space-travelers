@@ -23,6 +23,8 @@ const ListOfRockets = () => {
               name={rocket.name}
               imageUrl={rocket.image}
               description={rocket.description}
+              id={rocket.id}
+              reserved={rocket.reserved}
             />
           ))
       }
