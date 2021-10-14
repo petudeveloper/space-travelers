@@ -1,0 +1,22 @@
+.profilecontainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.profilesection {
+  width: 50%;
+  margin: 0 15px;
+}
+
+.profilelist {
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.479);
+  border-radius: 5px;
+}
+
+.profilelistElement {
+  padding: 10px 0 20px 35px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.479);
+  font-size: 1.2em;
+}

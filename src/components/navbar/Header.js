@@ -1,8 +1,9 @@
 import { NavLink } from 'react-router-dom';
+import style from './navbar.module.css';
 
 const Header = () => (
-  <nav className="navbar">
-    <div className="logo-nav">
+  <nav className={style.bar}>
+    <div className={style.logo}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.0"
@@ -20,17 +21,17 @@ const Header = () => (
           <path d="M803 936 c-79 -20 -160 -65 -218 -123 -66 -65 -103 -126 -127 -212 -102 -369 252 -697 617 -571 69 23 159 87 206 145 47 59 90 156 102 234 33 215 -103 439 -311 513 -71 25 -199 32 -269 14z m239 -164 c65 -28 133 -94 165 -161 36 -73 39 -190 6 -263 -30 -66 -95 -133 -162 -165 -76 -38 -190 -39 -268 -4 -109 49 -193 177 -193 296 0 106 76 236 165 283 90 46 201 52 287 14z" />
         </g>
       </svg>
-      <span>Space Travelers Hub</span>
+      <span className={style.logoLetters}>Space Travelers Hub</span>
     </div>
-    <ul className="list-nav">
+    <ul className={style.list}>
       <li>
-        <NavLink exact to="/" className="link-nav" activeClassName="active-nav">Rockets</NavLink>
+        <NavLink exact to="/" className={style.link} activeClassName={style.active}>Rockets</NavLink>
       </li>
       <li>
-        <NavLink to="/Missions" className="link-nav" activeClassName="active-nav">Missions</NavLink>
+        <NavLink to="/Missions" className={style.link} activeClassName={style.active}>Missions</NavLink>
       </li>
       <li>
-        <NavLink to="/Profile" className="link-nav" activeClassName="active-nav">Profile</NavLink>
+        <NavLink to="/Profile" className={style.link} activeClassName={style.active}>Profile</NavLink>
       </li>
     </ul>
   </nav>
