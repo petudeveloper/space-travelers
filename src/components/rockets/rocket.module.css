@@ -20,6 +20,7 @@
 
 .cardStyle:hover {
   box-shadow: 5px 10px 20px 1px rgb(122, 122, 122);
+  transform: scale(1.02);
 }
 
 .rocketImage:hover {
