@@ -33,7 +33,6 @@ const Rocket = ({
             )}
             {description}
           </Card.Text>
-
           {reserved && (
           <Button
             onClick={cancelRocketHandler}
@@ -42,7 +41,6 @@ const Rocket = ({
             Cancel Reservation
           </Button>
           )}
-
           {!reserved && (
           <Button
             onClick={reserveRocketHandler}
@@ -51,7 +49,6 @@ const Rocket = ({
             Reserve Rocket
           </Button>
           )}
-
         </Card.Body>
       </Card>
     </li>
