@@ -48,7 +48,7 @@ const Rocket = ({
             onClick={reserveRocketHandler}
             variant="primary"
           >
-            Cancel Reservation
+            Reserve Rocket
           </Button>
           )}
 
