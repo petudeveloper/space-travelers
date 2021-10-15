@@ -5,7 +5,8 @@ import style from './pages.module.css';
 
 const Profile = () => {
   const rockets = useSelector((state) => state.rockets).filter(({ reserved }) => reserved);
-  const missions = useSelector((state) => state.missions, shallowEqual).filter(({ status }) => status === 'Active member');
+  // eslint-disable-next-line max-len
+  const missions = useSelector((state) => state.missions, shallowEqual).filter(({ status }) => status === true);
 
   return (
     <div className={style.profilecontainer}>
