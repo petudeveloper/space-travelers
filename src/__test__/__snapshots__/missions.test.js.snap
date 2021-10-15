@@ -46,14 +46,16 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
         <td
           className="align-middle"
         >
-          <button
-            className="text-nowrap mx-3 undefined btn btn-outline-secondary"
-            disabled={false}
-            onClick={[Function]}
-            type="button"
-          >
-            Join Mission
-          </button>
+          <div>
+            <button
+              className="text-nowrap mx-3 undefined btn btn-outline-secondary"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Join Mission
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -80,14 +82,16 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
         <td
           className="align-middle"
         >
-          <button
-            className="text-nowrap mx-3 undefined btn btn-outline-secondary"
-            disabled={false}
-            onClick={[Function]}
-            type="button"
-          >
-            Join Mission
-          </button>
+          <div>
+            <button
+              className="text-nowrap mx-3 undefined btn btn-outline-secondary"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Join Mission
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -114,14 +118,16 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
         <td
           className="align-middle"
         >
-          <button
-            className="text-nowrap mx-3 undefined btn btn-outline-secondary"
-            disabled={false}
-            onClick={[Function]}
-            type="button"
-          >
-            Join Mission
-          </button>
+          <div>
+            <button
+              className="text-nowrap mx-3 undefined btn btn-outline-secondary"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Join Mission
+            </button>
+          </div>
         </td>
       </tr>
     </tbody>

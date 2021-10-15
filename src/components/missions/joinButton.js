@@ -6,33 +6,34 @@ import style from './missions.css';
 
 const JoinButton = ({ status, id }) => {
   const dispatch = useDispatch();
-  const fields = {
-    'Not a member': {
-      variant: 'outline-secondary',
-      message: 'Join Mission',
-      click: () => { dispatch(joinMission(id)); },
-    },
-    'Active member': {
-      variant: 'outline-danger',
-      message: 'Leave Mission',
-      click: () => { dispatch(leaveMission(id)); },
-    },
-  };
-
   return (
-    <Button
-      className={`text-nowrap mx-3 ${style.buttonStyle}`}
-      variant={fields[status].variant}
-      onClick={fields[status].click}
-    >
-      {fields[status].message}
-    </Button>
+    <div>
+
+      {!status && (
+      <Button
+        className={`text-nowrap mx-3 ${style.buttonStyle}`}
+        variant="outline-secondary"
+        onClick={() => { dispatch(joinMission(id)); }}
+      >
+        Join Mission
+      </Button>
+      )}
+      {status && (
+      <Button
+        className={`text-nowrap mx-3 ${style.buttonStyle}`}
+        variant="outline-danger"
+        onClick={() => { dispatch(leaveMission(id)); }}
+      >
+        Leave Mission
+      </Button>
+      )}
+    </div>
   );
 };
 
 JoinButton.propTypes = {
   id: PropTypes.string.isRequired,
-  status: PropTypes.oneOf(['Not a member', 'Active member']).isRequired,
+  status: PropTypes.bool.isRequired,
 };
 
 export default JoinButton;

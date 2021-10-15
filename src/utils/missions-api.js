@@ -13,7 +13,7 @@ const fetchMissions = async () => {
     id: mission_id,
     name: mission_name,
     description,
-    status: 'Not a member',
+    status: false,
   }));
   /* eslint-enable camelcase */
 };

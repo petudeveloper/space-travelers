@@ -35,6 +35,7 @@ export const loadRockets = () => async (dispatch) => {
     image: rocket.flickr_images[0],
     type: rocket.rocket_type,
     description: rocket.description,
+    reserved: false,
   }));
   dispatch({ type: LOAD, state });
 };
