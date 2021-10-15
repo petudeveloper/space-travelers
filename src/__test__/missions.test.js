@@ -29,29 +29,21 @@ describe('Missions tests', () => {
 
     it('Changes button after clicking button', () => {
       const thaicomRow = screen.getByText('Thaicom').closest('tr');
-
       expect(within(thaicomRow).queryByText('Leave Mission')).not
         .toBeInTheDocument();
       const joinButton = within(thaicomRow).getByText('Join Mission');
       fireEvent.click(joinButton);
       expect(within(thaicomRow).queryByText('Leave Mission'))
         .toBeInTheDocument();
-      fireEvent.click(joinButton);
-      expect(within(thaicomRow).queryByText('Leave Mission')).not
-        .toBeInTheDocument();
     });
 
     it('Changes badge after clicking button', () => {
       const telstarRow = screen.getByText('Telstar').closest('tr');
-
       expect(within(telstarRow).queryByText('Active member')).not
         .toBeInTheDocument();
       const joinButton = within(telstarRow).getByText('Join Mission');
       fireEvent.click(joinButton);
       expect(within(telstarRow).queryByText('Active member'))
-        .toBeInTheDocument();
-      fireEvent.click(joinButton);
-      expect(within(telstarRow).queryByText('Active member')).not
         .toBeInTheDocument();
     });
   });

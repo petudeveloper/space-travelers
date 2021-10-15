@@ -33,14 +33,14 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
           className="align-middle"
         >
           <p
-            className="badge mx-2 bg-primary my-0"
+            className="badge mx-2 text-uppercase bg-secondary my-0"
             style={
               Object {
-                "transform": "none",
+                "transform": "rotateX(360deg) translateZ(0)",
               }
             }
           >
-            Active member
+            Not a member
           </p>
         </td>
         <td
@@ -48,12 +48,12 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
         >
           <div>
             <button
-              className="text-nowrap mx-3 undefined btn btn-outline-danger"
+              className="text-nowrap mx-3 undefined btn btn-outline-secondary"
               disabled={false}
               onClick={[Function]}
               type="button"
             >
-              Leave Mission
+              Join Mission
             </button>
           </div>
         </td>
@@ -69,14 +69,14 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
           className="align-middle"
         >
           <p
-            className="badge mx-2 bg-primary my-0"
+            className="badge mx-2 text-uppercase bg-secondary my-0"
             style={
               Object {
-                "transform": "none",
+                "transform": "rotateX(360deg) translateZ(0)",
               }
             }
           >
-            Active member
+            Not a member
           </p>
         </td>
         <td
@@ -84,12 +84,12 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
         >
           <div>
             <button
-              className="text-nowrap mx-3 undefined btn btn-outline-danger"
+              className="text-nowrap mx-3 undefined btn btn-outline-secondary"
               disabled={false}
               onClick={[Function]}
               type="button"
             >
-              Leave Mission
+              Join Mission
             </button>
           </div>
         </td>
@@ -105,14 +105,14 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
           className="align-middle"
         >
           <p
-            className="badge mx-2 bg-primary my-0"
+            className="badge mx-2 text-uppercase bg-secondary my-0"
             style={
               Object {
-                "transform": "none",
+                "transform": "rotateX(360deg) translateZ(0)",
               }
             }
           >
-            Active member
+            Not a member
           </p>
         </td>
         <td
@@ -120,12 +120,12 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
         >
           <div>
             <button
-              className="text-nowrap mx-3 undefined btn btn-outline-danger"
+              className="text-nowrap mx-3 undefined btn btn-outline-secondary"
               disabled={false}
               onClick={[Function]}
               type="button"
             >
-              Leave Mission
+              Join Mission
             </button>
           </div>
         </td>

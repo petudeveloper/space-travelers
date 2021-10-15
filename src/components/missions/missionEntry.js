@@ -31,7 +31,7 @@ const StatusBadge = ({ status }) => (
         animate="end"
         className="badge mx-2 text-uppercase bg-secondary my-0"
       >
-        Join Mission
+        Not a member
       </motion.p>
     ) : (
       <motion.p
