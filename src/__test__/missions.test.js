@@ -6,7 +6,7 @@ import {
 } from '@testing-library/react';
 import { within } from '@testing-library/dom';
 import '@testing-library/jest-dom';
-import MissionsTable from '../components/missions/missionsTable';
+import MissionsTable from '../components/missions/MissionsTable';
 import store from '../redux/cofigureStore';
 import { fetchMissionsAction } from '../redux/missions/missions';
 
