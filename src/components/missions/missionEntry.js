@@ -67,7 +67,7 @@ MissionEntry.propTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  status: PropTypes.oneOf(['Not a member', 'Active member']).isRequired,
+  status: PropTypes.bool.isRequired,
 };
 
 export default MissionEntry;
