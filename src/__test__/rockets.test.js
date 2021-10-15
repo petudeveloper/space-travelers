@@ -15,7 +15,7 @@ beforeEach(() => {
         name="Rocket Test"
         imageUrl="Rocket Test ImageURL"
         description="Rocket Test Description."
-        id="Rocket Test ID"
+        id={1}
         reserved
       />
     </Provider>,
