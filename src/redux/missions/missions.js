@@ -41,7 +41,7 @@ const missionsReducer = (state = initialMissions, action) => {
         if (mission.id === action.id) {
           return {
             ...mission,
-            status: 'Active member',
+            status: true,
           };
         }
         return mission;
@@ -51,7 +51,7 @@ const missionsReducer = (state = initialMissions, action) => {
         if (mission.id === action.id) {
           return {
             ...mission,
-            status: 'Not a member',
+            status: false,
           };
         }
         return mission;

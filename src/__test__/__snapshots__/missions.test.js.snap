@@ -40,20 +40,22 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
               }
             }
           >
-            Not a member
+            Join Mission
           </p>
         </td>
         <td
           className="align-middle"
         >
-          <button
-            className="text-nowrap mx-3 undefined btn btn-outline-secondary"
-            disabled={false}
-            onClick={[Function]}
-            type="button"
-          >
-            Join Mission
-          </button>
+          <div>
+            <button
+              className="text-nowrap mx-3 undefined btn btn-outline-secondary"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Join Mission
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -67,27 +69,29 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
           className="align-middle"
         >
           <p
-            className="badge mx-2 text-uppercase bg-secondary my-0"
+            className="badge mx-2 bg-primary my-0"
             style={
               Object {
-                "transform": "rotateX(360deg) translateZ(0)",
+                "transform": "none",
               }
             }
           >
-            Not a member
+            Active member
           </p>
         </td>
         <td
           className="align-middle"
         >
-          <button
-            className="text-nowrap mx-3 undefined btn btn-outline-secondary"
-            disabled={false}
-            onClick={[Function]}
-            type="button"
-          >
-            Join Mission
-          </button>
+          <div>
+            <button
+              className="text-nowrap mx-3 undefined btn btn-outline-danger"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Leave Mission
+            </button>
+          </div>
         </td>
       </tr>
       <tr>
@@ -108,20 +112,22 @@ exports[`Missions tests Missions page matches snapshot 1`] = `
               }
             }
           >
-            Not a member
+            Join Mission
           </p>
         </td>
         <td
           className="align-middle"
         >
-          <button
-            className="text-nowrap mx-3 undefined btn btn-outline-secondary"
-            disabled={false}
-            onClick={[Function]}
-            type="button"
-          >
-            Join Mission
-          </button>
+          <div>
+            <button
+              className="text-nowrap mx-3 undefined btn btn-outline-secondary"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Join Mission
+            </button>
+          </div>
         </td>
       </tr>
     </tbody>

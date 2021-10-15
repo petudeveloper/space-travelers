@@ -24,14 +24,14 @@ const variants = {
 
 const StatusBadge = ({ status }) => (
   <>
-    {status === 'Not a member' ? (
+    {status === false ? (
       <motion.p
         variants={variants}
         initial="finish"
         animate="end"
         className="badge mx-2 text-uppercase bg-secondary my-0"
       >
-        {status}
+        Join Mission
       </motion.p>
     ) : (
       <motion.p
@@ -40,14 +40,14 @@ const StatusBadge = ({ status }) => (
         animate="finish"
         className="badge mx-2 bg-primary my-0"
       >
-        {status}
+        Active member
       </motion.p>
     )}
   </>
 );
 
 StatusBadge.propTypes = {
-  status: PropTypes.oneOf(['Not a member', 'Active member']).isRequired,
+  status: PropTypes.bool.isRequired,
 };
 
 const MissionEntry = ({
