@@ -9,7 +9,7 @@ function App() {
   return (
     <Router className="App">
       <Header />
-      <Route exact path="/" component={Home} />
+      <Route exact path="/space-travelers" component={Home} />
       <Route exact path="/Profile" component={Profile} />
       <Route exact path="/Missions" component={Missions} />
     </Router>
