@@ -3,16 +3,16 @@
   <a href="https://www.microverse.org/">
     <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
   </a>
-  <a href="https://github.com/Hamzaoutdoors/Space-Travelers-Hub/blob/dev/MIT.md">
+  <a href="https://github.com/petudeveloper/space-travelers/blob/dev/MIT.md">
     <img alt="MIT Licensed" src="https://img.shields.io/github/license/Hamzaoutdoors/to-do-list?style=flat-square">
   </a>
-  <a href="https://github.com/Hamzaoutdoors/Space-Travelers-Hub">
+  <a href="https://github.com/petudeveloper/space-travelers">
     <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Hamzaoutdoors/Space-Travelers-Hub/dev?color=blue&style=flat-square">
   </a>
-  <a href="https://github.com/Hamzaoutdoors/Space-Travelers-Hub">
+  <a href="https://github.com/petudeveloper/space-travelers">
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Hamzaoutdoors/Space-Travelers-Hub?color=green&label=%E2%98%85%20stars%20&style=flat-square">
   </a>
-  <a href="https://github.com/Hamzaoutdoors">
+  <a href="https://github.com/petudeveloper">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/Hamzaoutdoors?color=yellow&logo=github&style=flat-square">
   </a>
 </p>
