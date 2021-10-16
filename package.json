@@ -2,6 +2,7 @@
   "name": "space-travelers",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://petudeveloper.github.io/space-travelers",
   "dependencies": {
     "@testing-library/dom": "^8.9.1",
     "@testing-library/react": "^11.2.7",
@@ -24,6 +25,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -59,6 +62,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^3.2.3",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
