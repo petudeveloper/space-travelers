@@ -10,8 +10,8 @@ function App() {
     <Router className="App">
       <Header />
       <Route exact path="/space-travelers" component={Home} />
-      <Route exact path="/Profile" component={Profile} />
-      <Route exact path="/Missions" component={Missions} />
+      <Route exact path="/space-travelers/Profile" component={Profile} />
+      <Route exact path="/space-travelers/Missions" component={Missions} />
     </Router>
   );
 }

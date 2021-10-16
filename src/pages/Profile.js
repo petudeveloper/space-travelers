@@ -30,7 +30,7 @@ const Profile = () => {
             <p>
               Go to the Rockets page and reserve one.
               {' '}
-              <NavLink exact to="/">Click Here </NavLink>
+              <NavLink exact to="/space-travelers">Click Here </NavLink>
               {' '}
               if you want to go the Rockets page.
             </p>
@@ -57,7 +57,7 @@ const Profile = () => {
             <p>
               Go to the Missions page and reserve one.
               {' '}
-              <NavLink exact to="/Missions">Click Here </NavLink>
+              <NavLink exact to="/space-travelers/Missions">Click Here </NavLink>
               {' '}
               if you want to go the Missions page.
             </p>

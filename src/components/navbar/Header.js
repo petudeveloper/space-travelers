@@ -28,10 +28,10 @@ const Header = () => (
         <NavLink exact to="/space-travelers" className={style.link} activeClassName={style.active}>Rockets</NavLink>
       </li>
       <li>
-        <NavLink to="/Missions" className={style.link} activeClassName={style.active}>Missions</NavLink>
+        <NavLink to="/space-travelers/Missions" className={style.link} activeClassName={style.active}>Missions</NavLink>
       </li>
       <li>
-        <NavLink to="/Profile" className={style.link} activeClassName={style.active}>Profile</NavLink>
+        <NavLink to="/space-travelers/Profile" className={style.link} activeClassName={style.active}>Profile</NavLink>
       </li>
     </ul>
   </nav>
