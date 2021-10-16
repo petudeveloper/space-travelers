@@ -25,7 +25,7 @@ const Header = () => (
     </div>
     <ul className={style.list}>
       <li>
-        <NavLink exact to="/" className={style.link} activeClassName={style.active}>Rockets</NavLink>
+        <NavLink exact to="/space-travelers" className={style.link} activeClassName={style.active}>Rockets</NavLink>
       </li>
       <li>
         <NavLink to="/Missions" className={style.link} activeClassName={style.active}>Missions</NavLink>
