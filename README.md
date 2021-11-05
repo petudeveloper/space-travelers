@@ -1,22 +1,3 @@
-
-<p align="center">
-  <a href="https://www.microverse.org/">
-    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
-  </a>
-  <a href="https://github.com/petudeveloper/space-travelers/blob/dev/MIT.md">
-    <img alt="MIT Licensed" src="https://img.shields.io/github/license/Hamzaoutdoors/to-do-list?style=flat-square">
-  </a>
-  <a href="https://github.com/petudeveloper/space-travelers">
-    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Hamzaoutdoors/Space-Travelers-Hub/dev?color=blue&style=flat-square">
-  </a>
-  <a href="https://github.com/petudeveloper/space-travelers">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Hamzaoutdoors/Space-Travelers-Hub?color=green&label=%E2%98%85%20stars%20&style=flat-square">
-  </a>
-  <a href="https://github.com/petudeveloper">
-    <img alt="GitHub followers" src="https://img.shields.io/github/followers/Hamzaoutdoors?color=yellow&logo=github&style=flat-square">
-  </a>
-</p>
-
 <div align="center">
  <img alt="react" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&loColor=%2361DAFB"> <img alt="redux" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/> <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/></div>
 </br>
